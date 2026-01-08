@@ -2,8 +2,6 @@ import {Box, Typography, Button, useMediaQuery, useTheme, AppBar, Container, Too
 } from "@mui/material";
 import MenuIcon from '@mui/icons-material/Menu';
 import { useState } from "react";
-// import MenuOpenIcon from '@mui/icons-material/MenuOpen';
-// import PopupState, { bindTrigger, bindMenu } from 'material-ui-popup-state';
 
 const Header = () => {
   const [drawerOpen, setDrawerOpen] = useState(false);
@@ -34,15 +32,7 @@ const Header = () => {
                 {link.text}
               </Button>
             ))}
-            {/* <Button variant="text" color="inherit">
-              Home
-            </Button>
-            <Button variant="text" color="inherit">
-              Works
-            </Button>
-            <Button variant="text" color="inherit">
-              Contact
-            </Button> */}
+            
           </Toolbar>
         </Container>
       </AppBar>
